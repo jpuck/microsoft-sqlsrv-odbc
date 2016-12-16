@@ -14,7 +14,7 @@ set -e
 cd $( dirname "${BASH_SOURCE[0]}" )
 
 # dependencies
-apt-get install make unixodbc php-odbc libc6 libkrb5-3 libgss3 e2fsprogs openssl libstdc++6 -y
+apt-get install make libc6 libkrb5-3 libgss3 e2fsprogs openssl libstdc++6 apache2 php libapache2-mod-php php7.0-zip php7.0-mbstring php-xml php-curl php-gd php-ssh2 unixodbc php-odbc -y
 
 # enable odbc
 phpenmod odbc

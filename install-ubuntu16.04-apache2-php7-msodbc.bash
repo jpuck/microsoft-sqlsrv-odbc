@@ -7,10 +7,9 @@
 # I suggest executing each step line-by-line and observe what's happening.
 # this is proprietary software afterall, polluting your open-source environment.
 
-set -e
-
 # move to working directory, only needed for script
-# ignore this line if manually executing
+# ignore these lines if manually executing
+set -e
 cd $( dirname "${BASH_SOURCE[0]}" )
 
 # dependencies
